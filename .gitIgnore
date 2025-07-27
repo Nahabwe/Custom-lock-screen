@@ -1,6 +1,6 @@
 \dist
 \build
-secret.json
-key.key
-attempts.log
-lockscreen.spec
+.secret.json
+.key.key
+.attempts.log
+.lockscreen.spec

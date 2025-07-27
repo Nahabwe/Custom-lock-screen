@@ -182,7 +182,7 @@ def check_password():
             feedback_label.config(text='Incorrect password. Try again.', fg='red')
         password_entry.delete(0, tk.END)
 
-# ======== UNLOCK BUTTON ========
+# =========== UNLOCK BUTTON ========
 login_btn = tk.Button(
     root,
     text='Login',
