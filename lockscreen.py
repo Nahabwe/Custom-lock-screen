@@ -195,7 +195,7 @@ login_btn = tk.Button(
 )
 login_btn.pack(pady=20)
 
-# ======== FOOTER ========
+# ========== FOOTER ==========
 footer = tk.Label(
     root,
     text='© 2025 Nahabwe Samuel | Dev Access',
