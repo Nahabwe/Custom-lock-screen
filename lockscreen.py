@@ -45,7 +45,7 @@ def decrypt_password(encrypted):
     key = load_key()
     return Fernet(key).decrypt(encrypted.encode()).decode()
 
-# ======== INIT PASSWORD FILE IF MISSING ========
+# ======== INIT PASSWORD FILE IF MISSING =========
 if not os.path.exists(PASSWORD_FILE):
     encrypted_pw = encrypt_password(DEFAULT_PASSWORD)
     with open(PASSWORD_FILE, 'w') as file:
